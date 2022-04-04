@@ -4,11 +4,11 @@
 # Project metarials: React,React-bootstrap, React-router, Javascript, HTML,CSS
 # Live site link: (https://gear-review-website.netlify.app/)
 ##Description:
--This is a product review website
--It has a customer review section where customer can give theke opinion regarding the selected products.
--There is a dashboard where four types of charts are shown with a sample json data.
--It has a blog seaction where three most important topic are descripted.
--Atlast there is a about section where share some information about the project.
+- This is a product review website
+- It has a customer review section where customer can give theke opinion regarding the selected products.
+- There is a dashboard where four types of charts are shown with a sample json data.
+- It has a blog seaction where three most important topic are descripted.
+- Atlast there is a about section where share some information about the project.
 
 # Getting Started with Create React App
 
