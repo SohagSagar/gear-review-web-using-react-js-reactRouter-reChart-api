@@ -1,4 +1,11 @@
+## Project short descriptions
+
+## _Project name: "Gear Review Website"
+## _Project metarials: React,React-bootstrap, React-router, Javascript, HTML,CSS
+## Live site link: (https://gear-review-website.netlify.app/)
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
