@@ -26,7 +26,7 @@ const Home = () => {
                         <button className=' detail-btn'>Live Demo</button>
                     </div>
                     <div className="feature-products-img">
-                        <img src="./gear-1.jpg" alt="" />
+                        <img src="./gear-1.png" alt="" />
                     </div>
                 </section>
             </div>
