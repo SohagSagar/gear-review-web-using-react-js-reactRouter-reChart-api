@@ -5,6 +5,8 @@
     margin-left: 60px;
     border-radius: 10px;
     padding: 5px 10px;
+    border-top: 3px solid #3A5199;
+    
     box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .review-card img{

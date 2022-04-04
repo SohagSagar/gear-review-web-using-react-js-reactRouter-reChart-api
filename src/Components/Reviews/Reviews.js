@@ -6,14 +6,17 @@ import Review from '../Review/Review';
 
 
 const Reviews = () => {
-    const [reviews,setReviews]=CustomerReviews();
+    const [reviews, setReviews] = CustomerReviews();
     return (
-        <div className='all-reviews'>
+        <div>
+            <p className='review-heading'>User's Reviews</p>
+            <div className='all-reviews'>
 
-            {
-                reviews.map(review => <Review key={review.id} review={review}></Review>)
-            }
-            
+                {
+                    reviews.map(review => <Review key={review.id} review={review}></Review>)
+                }
+
+            </div>
         </div>
     );
 };

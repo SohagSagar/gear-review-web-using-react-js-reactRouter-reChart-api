@@ -3,7 +3,6 @@ import './Review.css'
 import { BsChatSquareQuote } from 'react-icons/bs';
 
 const Review = ({review}) => {
-    console.log(review);
     const {name,designation,avatar,message,rating}=review
     return (
         <div className='review-card'>

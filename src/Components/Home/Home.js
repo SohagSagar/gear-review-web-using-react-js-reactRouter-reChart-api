@@ -33,10 +33,10 @@ const Home = () => {
             {/* customer review section */}
             <section>
                 <div className="customer-reviews">
-                    <p className='review-heading'>Customer's Reviews</p>
+                    <p className='review-heading'>User's Reviews</p>
                     <div className="container">
                         {
-                            reviews.slice(0, 3).map(review => <Review review={review}></Review>)
+                            reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                         }
                     </div>
                     <button onClick={seeAllReviews} className='all-review-btn'>See All Reviews</button>

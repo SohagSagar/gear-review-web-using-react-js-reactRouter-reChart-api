@@ -1,9 +1,19 @@
-import React from 'react';
+import useChartData from '../../Hooks/ChartData';
+import AreaChartCompo from '../Charts/AreaChartCompo/AreaChartCompo';
+import BarChartCompo from '../Charts/BarChartCompo/BarChartCompo';
+import ComposedChartCompo from '../Charts/ComposedChartCompo/ComposedChartCompo';
+import LineChartCompo from '../Charts/LineChartCompo/LineChartCompo';
+import './Dashboard.css'
+
 
 const Dashboard = () => {
+    const [chartData, setChartData] = useChartData();
     return (
-        <div>
-            <p>This is from dashboard components</p>
+        <div className='dashboard-container container'>
+            <BarChartCompo/>
+            <AreaChartCompo/>
+            <LineChartCompo/>
+            <ComposedChartCompo/>
         </div>
     );
 };
