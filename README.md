@@ -1,9 +1,9 @@
-## Project short descriptions
+# Project short descriptions
 
-# Project name: "Gear Review Website"
-# Project metarials: React,React-bootstrap, React-router, Javascript, HTML,CSS
-# Live site link: (https://gear-review-website.netlify.app/)
-##Description:
+## Project name: "Gear Review Website"
+## Project metarials: React,React-bootstrap, React-router, Javascript, HTML,CSS
+## Live site link: (https://gear-review-website.netlify.app/)
+## Description:
 - This is a product review website
 - It has a customer review section where customer can give theke opinion regarding the selected products.
 - There is a dashboard where four types of charts are shown with a sample json data.
