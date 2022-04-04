@@ -1,9 +1,10 @@
 import React from 'react';
+import './About.css'
 
 const About = () => {
     return (
         <div>
-            <p>This is form about components!!!!</p>
+            <marquee behavior='scroll' direction="left" scrollamount="8"><p className='page-heading'>This page is under preparing!!!!</p></marquee>
         </div>
     );
 };
