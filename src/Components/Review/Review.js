@@ -6,6 +6,7 @@ const Review = ({review}) => {
     const {name,designation,avatar,message,rating}=review
     return (
         <div className='review-card'>
+            
             <img src={avatar} alt="" />
             <p className='card-reviewer'>{name} | <small>{designation}</small></p>
             <p className='rating'>Rating: {rating}/5</p>
