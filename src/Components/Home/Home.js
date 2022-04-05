@@ -30,7 +30,9 @@ const Home = () => {
                     </div>
                 </section>
             </div>
+
             {/* customer review section */}
+            
             <section>
                 <div className="customer-reviews">
                     <p className='review-heading'>User's Reviews</p>

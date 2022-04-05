@@ -1,12 +1,13 @@
 .review-card{
-    width: 300px;
+    width: 340px;
     height: 320px;
     margin-top: 20px;
     margin-left: 60px;
     border-radius: 10px;
     padding: 5px 10px;
     border-top: 3px solid #3A5199;
-    
+    margin: auto;
+    margin-bottom: 20px;
     box-shadow:rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .review-card img{
