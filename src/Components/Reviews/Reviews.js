@@ -16,7 +16,6 @@ const Reviews = () => {
                 {
                     reviews ? 
                     reviews.map(review => <Review key={review.id} review={review}></Review>)
-
                     : <Spinner animation="border" role="status">
                         <span className="visually-hidden">Loading...</span>
                     </Spinner>
